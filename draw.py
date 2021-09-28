@@ -20,6 +20,7 @@ from model import *
 # ..........
 
 #global settings
+os.environ['SDL_VIDEODRIVER'] = 'dummy'
 pygame.init()
 width, height = 800, 600
 white = [255,255,255]
